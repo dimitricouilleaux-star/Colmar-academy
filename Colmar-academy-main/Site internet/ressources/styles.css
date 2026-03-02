@@ -4,7 +4,11 @@ header{
     align-items: center;
     
 }
-
+body{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;     ;
+}
 nav{
     display: flex;
     justify-content: flex-end;
@@ -34,35 +38,45 @@ header img{
 
 
 
-
+/*premiere section*/
 
 #content{
     display: flex;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(192, 190, 190);
+   
     
 }
 
 #content img{
-    width: 60%;
-    margin: 24px 32px 24px 32px;
+    display: block;
+    width: 100%;
+    margin-left:24px ;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    flex-basis: 60%;
 }
 
 #text{
     display: flex;
+    flex-basis: 40%;
     flex-direction: column;
-    justify-content: center;
-    width: 25%;
+    text-align: left;
+    text-transform: capitalize;
+    width: 30%;
     margin-left: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 80px;
+
     
 }   
 
 #text h1{
     font-size: 50px;
+    
     
 }
 
@@ -78,4 +92,369 @@ header img{
     padding: 10px 20px;
     font-size: 20px;
     margin-top: 20px;
+    padding-right: 5px;
+    color: white;
+    text-shadow: 0px 0px 20px white; 
 }
+
+
+/*deuxieme section*/
+
+#second{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+#left{
+    flex-basis: 60%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 10px;
+    margin-bottom:32px;
+
+}
+
+#left h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    line-height: 1.4;
+}
+
+#left p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 24px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    color: grey;
+    width: 90%;
+}
+
+#left h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 32px;
+    letter-spacing: 1.5px;
+}
+
+#left img{
+    display: block;
+    width: 100%;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+  
+    flex-basis: 40%;
+
+}
+
+
+
+.small{
+    align-items: flex-start;
+    border-left: 1px solid rgb(161, 161, 161);
+    border-right: 1px solid rgb(161, 161, 161);
+   
+}
+
+
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10% ;
+    width: 40%;
+    text-align: left;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.small h1{
+    
+    font-size: 27px;
+    margin: 8px;
+    padding: 0;
+    word-spacing: 2px;
+    
+}
+ .small p{
+    font-size: 16px;
+    margin: 8px;
+    padding: 0;
+    word-spacing: 3px;
+    color: rgb(61, 61, 61);
+}
+
+.small a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px;
+    padding: 0;
+    color: rgb(1, 176, 230);
+}
+.small img{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    width: 35%;
+    display: block;
+}
+
+#first, #third{
+    display: flex;
+    
+}
+
+#third{
+    background-color:  rgb(192, 190, 190);;
+}
+
+
+#second{
+    margin: 0;
+}
+
+#first{
+    border-bottom: 3px solid grey;
+}
+
+
+/*troisieme section*/
+
+
+#Start{
+    
+    background-color: rgb(192, 190, 190);
+    margin: 0;
+  
+}
+
+#start h3{
+    margin-left: 15px;
+    
+}
+#Start h1{
+    font-size: 40px;
+    padding-top: 32px;
+    padding-bottom: 19px;
+
+    word-spacing: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#grid{
+    display: grid;
+   
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 32px;
+}
+
+.mini-container{
+   
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.mini-container img{
+    width: 100%;
+    display: block;
+}
+
+.mini-container h2,h3,h4{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mini-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+}
+
+.mini-container h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 8px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    color: grey;
+    font-weight: normal;
+}
+
+.mini-container h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    color: grey;
+    font-weight: normal;
+}
+
+
+/*quatrieme section*/
+
+#thesis{
+    display: flex;
+   
+    margin-bottom: 80px;
+    
+}
+
+
+#Thesis-h1{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#thesis #left2{
+    display: flex;
+    flex-basis: 60%;
+    
+    flex-direction: column;
+
+}
+
+#thesis #left2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 24px;
+    line-height: 1.4;
+}
+
+#thesis #left2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 32px;
+    font-weight: normal;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    color: grey;
+}
+
+#thesis video{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#thesis #left2{
+    padding-left: 24px;
+    padding-bottom:24px;
+    padding-right: 24px;
+}
+
+#thesis .mini{
+    display: flex;
+}
+
+#thesis .Text2{
+    display: flex;
+    flex-direction: column;
+}
+
+#Thesis h2,h3{
+    margin:0;
+}
+
+#left2 video{
+    
+    padding-bottom: 24px;
+
+}
+
+
+#thesis #right2{
+    flex-basis: 40%;
+}
+.mini img{
+    display: block;
+    max-width:35% ;
+    height: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-basis: 35%;
+
+}
+
+.mini .Text2{
+    display: flex;
+    flex-basis: 65%;
+    
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.mini .Text2 h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    word-spacing: 2px;
+    letter-spacing: 1.1px;
+}
+
+.mini .Text2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1.1px;
+    color: grey;
+    font-weight: normal;
+}
+
+#first2{
+    background-color: rgb(192, 190, 190);
+}
+
+
+
+/*footer*/
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:50px ;
+    padding-left: 24px;
+    border-top: 2px solid black;
+}
+
+
+footer ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
