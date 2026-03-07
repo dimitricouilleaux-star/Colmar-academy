@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    #dekstop{
+        display: none;
+    }
+
+    #mobile{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    
+    #content{
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+
+    #text{
+        background-color: rgb(170, 171, 172);
+        
+        width: 93%;
+        margin: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #text h1{
+        font-size: 45px;
+    }
+
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .small{
+        flex-direction: column;
+        align-items:center;
+        border: 2px solid red;
+        
+    }
+
+    .small .PC{
+        border: 2px solid blue;
+        display: none;
+        
+    }
+    #second #right .mobile{
+        display: block;
+
+    }
+
+    
+    .small img{
+        border: 2px solid rgb(87, 236, 0);
+        padding: 0;
+        width: 93%;
+        
+    }
+    .small .Text{
+        border: 2px solid rgb(151, 141, 141);
+        width: 90%;
+        margin: 0;
+        margin-left: 32px;
+        
+    }
+
+
+
+    #left {
+        display: none;
+    }
+
+    
+}
